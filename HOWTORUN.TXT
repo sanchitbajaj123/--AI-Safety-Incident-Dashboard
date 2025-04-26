@@ -1,0 +1,19 @@
+# How to Run Locally
+
+Follow these steps to set up and run the AI Safety Incident Dashboard locally:
+
+1. Extract the ZIP file to your preferred location.
+
+2. Open your terminal and navigate into the project directory:
+   cd ai-safety-incident-dashboard
+
+3. Install the project dependencies:
+   npm install
+
+4. Start the development server:
+   npm start
+
+5. Open your browser and visit:
+   http://localhost:3000
+
+The app should now be running locally on your machine!
