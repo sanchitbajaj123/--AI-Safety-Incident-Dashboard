@@ -51,6 +51,10 @@ npm start
   The app was built with mobile-first principles in mind, ensuring that the dashboard looks great on both mobile devices and desktops.
 
 ---
+## 🔗 Live Deployment
+
+Check out the live project here:  
+👉 [AI Safety Incident Dashboard](https://ai-safety-incident-dashboard-three.vercel.app/)
 
 
 
