@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# 🛡️ AI Safety Incident Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple, modern web app to track, report, and manage AI safety-related incidents.  
+Built using **React.js**, **TypeScript**, and styled with custom **CSS** using a glassmorphism aesthetic.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+- **Language:** TypeScript
+- **Framework:** React.js
+- **Styling:** CSS (Glassmorphism)
+- **Data Persistence:** LocalStorage (Frontend only)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📥 Installation and Setup
 
-### `npm test`
+Follow these steps to set up and run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the Repository
+git clone https://github.com/your-username/ai-safety-incident-dashboard.git
+cd ai-safety-incident-dashboard
+### 2. Install Dependencies
+npm install
+### 3. Start the Development Server
+npm start
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📋 View a list of AI safety incidents
+- 🎯 Filter incidents by severity (Low, Medium, High)
+- ⏳ Sort incidents by Newest or Oldest
+- 📝 Submit new incident reports via a modal form
+- 💾 Persist data locally with browser LocalStorage
+- 🧊 Modern and attractive glassmorphism-based UI
+- 📱 Fully responsive design for desktop and mobile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Design Decisions and Challenges
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Glassmorphism UI:**  
+  Chose glassmorphism to give the dashboard a clean and futuristic look without relying on third-party UI libraries like MUI or Tailwind.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend-Only Persistence:**  
+  Since no backend is implemented, LocalStorage was used to simulate data saving, ensuring that user-added incidents persist across page reloads.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Responsive Design:**  
+  The app was built with mobile-first principles in mind, ensuring that the dashboard looks great on both mobile devices and desktops.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
