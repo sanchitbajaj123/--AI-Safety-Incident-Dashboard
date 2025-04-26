@@ -207,4 +207,9 @@ display: flex;
     margin-bottom: 20px;
     font-size: 2rem;
   }
-  
+  @media (max-width: 768px) {
+    .incident-header {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  }
